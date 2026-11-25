@@ -1,0 +1,31 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{7291DDDA-4745-8993-59E5-2D9AFEB227FE}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MotionWrapping",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		},
+		{
+			"Name": "MotionWrappingEditor",
+			"Type": "Editor",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		},
+		{
+			"Name": "ControlRig",
+			"Enabled": true
+		}
+	]
+}
